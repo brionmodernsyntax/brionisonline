@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+}
+nav.flexNav {
+    display: flex;
+    justify-content: space-between;
+    height:25vh;
+    ul {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        li {
+            padding: 50px;
+            font-size: xx-large;
+          
+            a {
+                text-decoration: none;
+                
+            }
+        }
+    }
+    .badge {
+        padding: 50px 100px 50px 50px;
+
+    }
+}
