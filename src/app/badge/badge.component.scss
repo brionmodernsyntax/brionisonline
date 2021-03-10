@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+.flex-container {
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+        width: 100px;
+    }
+}
+
+.details {
+    span{
+        display: flex;
+        align-items: center;
+    }
+    .online {
+        width: 10px;
+        height:10px;
+        background-color: greenyellow;
+        border-radius: 10px;
+    }
+}
+.phnNum {
+    display: flex;
+
+    img {
+        width: 20px;
+    }
+}
