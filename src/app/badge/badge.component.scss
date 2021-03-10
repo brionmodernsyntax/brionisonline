@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex-container {
     display: flex;
@@ -15,21 +16,25 @@
 }
 
 .details {
+    padding-left: 15px;
+
     span{
         display: flex;
         align-items: center;
     }
     .online {
+        margin-left: 8px;
         width: 10px;
         height:10px;
-        background-color: greenyellow;
+        background-color: green;
         border-radius: 10px;
     }
 }
 .phnNum {
     display: flex;
-
+    margin-top: 5px;
     img {
+        margin-right: 8px;
         width: 20px;
     }
 }
