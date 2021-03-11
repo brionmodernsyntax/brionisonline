@@ -1,9 +1,12 @@
 <nav class="flexNav">
 
     <ul>
-        <li><a href="/">Games</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a routerLink="/" routerLinkActive="activatedLink" [routerLinkActiveOptions]="{exact:true}">Games</a>
+        </li>
+        <li><a routerLink="/about" routerLinkActive="activatedLink" [routerLinkActiveOptions]="{exact:true}">About</a>
+        </li>
+        <li><a routerLink="/contact" routerLinkActive="activatedLink" [routerLinkActiveOptions]="{exact:true}">Contact</a>
+        </li>
     </ul>
     <app-badge class="badge"></app-badge>
 </nav>
