@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "image details message";
+}
+.imageFlex {
+    display: flex;
+    justify-content: flex-end;
+}
+img {
+    grid-area: image;
+    width: 200px;
+    height: 200px;
+    box-shadow: -10px -10px 0 -5px hsl(345, 10%, 8%), -10px -10px 0 0 #707070, 10px 10px 0 -5px hsl(345, 10%, 8%),
+        10px 10px 0 0 #707070;
+}
+.detailsFlex {
+    display: flex;
+    justify-content: flex-start;
+    .details {
+        padding-left: 40px;
+        grid-area: details;
+
+        .name {
+            font-size: 35px;
+            color: #707070;
+        }
+        p {
+            color: #707070;
+        }
+    }
+}
+.messageFlex {
+    display:flex;
+    justify-content: center;
+}
+.message {
+    grid-area: message;
+    font-size: 30px;
+    height: 300px;
+    width: 700px;
+    overflow: auto;
+    
+    p{
+    color:#707070;
+}
+}
