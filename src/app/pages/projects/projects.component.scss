@@ -1,0 +1,41 @@
+* {
+    a {
+        text-decoration: none;
+    }
+}
+.project {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "techs cover name info";
+
+    .techs {
+        grid-area: techs;
+    }
+    .cover {
+        width: 250px;
+        border-radius: 25px;
+        grid-area: cover;
+    }
+    .name {
+        grid-area: name;
+        p {
+            padding-left: 10px;
+            font-size: 50px;
+        }
+    }
+    i {
+        font-size: 50px;
+    }
+    .play {
+        width: 50px;
+    }
+    .info {
+        grid-area: info;
+        >*{
+            padding-right:5px;
+        }
+    }
+    
+}
