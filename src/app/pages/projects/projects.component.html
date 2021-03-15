@@ -1,6 +1,11 @@
+<div class="content">
 <div *ngFor="let project of projects" class="project">
-    <img [src]="project.cover" class="cover" />
-    <!-- <h1 class="name">
+    <div  class="cover">
+    <img [src]="project.cover" />
+</div>
+</div>
+</div>
+ <!-- <h1 class="name">
         <p>{{project.name}}</p>
     </h1>
     <div class="techs">
@@ -15,4 +20,3 @@
             <a [href]="project.download" target="_blank"><img src="assets/images/download.svg" class="play" /></a>
         </span>
     </div> -->
-</div>

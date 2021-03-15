@@ -8,11 +8,21 @@
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 body {
+  height:100vh;
+    background-image: url("assets/images/skyline.svg");
     background-color: hsl(345, 10%, 8%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
 }
 h1{
     font-weight: normal;
 }
 .activatedLink{
     opacity: 1.0 !important;
+}
+.skyline {
+    position:fixed;
+    bottom:0;
+    opacity: .25;
 }
