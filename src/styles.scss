@@ -6,6 +6,9 @@
     list-style-type: none;
     color: white;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    a{
+        text-decoration: none;
+    }
 }
 body {
     background-image: url("assets/images/skyline.svg");

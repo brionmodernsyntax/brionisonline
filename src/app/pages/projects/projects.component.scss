@@ -7,9 +7,27 @@
 }
 .cover {
     margin: 20px;
+    position:relative;
    img{
     width: 250px;
     border-radius: 25px;
+   }
+   .aboutGame{
+    height:50px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .35);
+    border-radius: 0 0 25px 25px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width:30px;        
+    }
+    i{
+        font-size: 30px;
+    }
    }
 }
 
