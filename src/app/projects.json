@@ -14,20 +14,5 @@
                 "icon": "devicon-java-plain colored"
             }
         ]
-    }, {
-        "name": "SNAKE",
-        "cover": "assets/images/snakeCover.png",
-        "github": "https://github.com/brionmodernsyntax/Snake",
-        "playcanvas": null,
-        "download": "https://drive.google.com/file/d/1QIeXl8xJwgPD31oBCLAtvTAUNpC7l8CK/view?usp=sharing",
-        "tech":[
-            {
-                "name": "java",
-                "icon": "devicon-java-plain"
-            },   {
-                "name": "javafx",
-                "icon": "devicon-java-plain colored"
-            }
-        ]
     }
 ]
