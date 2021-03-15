@@ -22,7 +22,10 @@ img {
         color: #707070;
     }
 }
-
+.bioContainer{
+    display:flex;
+    padding:30px;
+}
 .message {
     font-size: 30px;
     height: 300px;
@@ -37,7 +40,5 @@ img {
     .flex-container{
         flex-wrap: wrap;
     }
-    .message {
-
-    }
+    
 }
