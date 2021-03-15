@@ -8,10 +8,10 @@
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 body {
-  height:100vh;
     background-image: url("assets/images/skyline.svg");
     background-color: hsl(345, 10%, 8%);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: bottom;
 
 }
