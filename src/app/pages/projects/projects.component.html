@@ -1,31 +1,22 @@
 <div class="content">
-<div *ngFor="let project of projects" class="project">
-    <div  class="cover">
-    <img [src]="project.cover" />
-    <div class="aboutGame">
-        <a [href]="project.github" target="_blank"><i class="devicon-github-original"></i></a>
-        <span *ngIf="project.playcanvas != null">
-            <img src="assets/images/play.svg">
-        </span>
-        <span *ngIf="project.download != null">
-            <a [href]="project.download" target="_blank"><img src="assets/images/download.svg" class="play" /></a>
-        </span>
+    <div *ngFor="let project of projects" class="project">
+        <div class="cover">
+            <img [src]="project.cover" />
+            <div class="aboutGame">
+                <a [href]="project.github" target="_blank"><i class="devicon-github-original"></i></a>
+                <div *ngFor="let techs of project.tech">
+                    <div>
+                    <i [class]="techs.icon"></i>
+                    </div>
+                </div>
+                <div *ngIf="project.playcanvas != null">
+                    <img src="assets/images/play.svg">
+                </div>
+                <div *ngIf="project.download != null">
+                    <a [href]="project.download" target="_blank"><img src="assets/images/download.svg"
+                            class="play" /></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-</div>
-</div>
- <!-- <h1 class="name">
-        <p>{{project.name}}</p>
-    </h1>
-    <div class="techs">
-         <i *ngFor="let tech of project.tech" [class]="tech.icon"></i> 
-    </div>
-    <div class="info">
-        <a [href]="project.github" target="_blank"><i class="devicon-github-original"></i></a>
-        <span *ngIf="project.playcanvas != null">
-            <img src="assets/images/play.svg">
-        </span>
-        <span *ngIf="project.download != null">
-            <a [href]="project.download" target="_blank"><img src="assets/images/download.svg" class="play" /></a>
-        </span>
-    </div> -->

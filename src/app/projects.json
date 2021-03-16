@@ -9,9 +9,6 @@
             {
                 "name": "java",
                 "icon": "devicon-java-plain"
-            },   {
-                "name": "javafx",
-                "icon": "devicon-java-plain colored"
             }
         ]
     }
