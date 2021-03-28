@@ -1,6 +1,8 @@
 <div class="container">
 <img src="../../../assets/images/return.svg" (click)="filter.emit('all')">
-<i class="devicon-java-plain" (click)="filter.emit('java')"></i>
-<i class="devicon-csharp-plain" (click)="filter.emit('csharp')"></i>
-<i class="devicon-angularjs-plain" (click)="filter.emit('angularjs')"></i>
+<div *ngFor="let project of projects">
+    <div *ngFor="let techs of project.tech">
+        <i [class]="techs.icon" (click)="filter.emit(techs.name)"></i>
+    </div>
+</div>
 </div>
