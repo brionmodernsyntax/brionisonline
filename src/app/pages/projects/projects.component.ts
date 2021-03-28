@@ -14,6 +14,19 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  filterFun(techName: string){
+    if(techName === "all"){
+    this.projects = projectsData;
+    return;
+    }
+    this.projects = projectsData.filter(function(project){
+      if(project.tech.find(tech => tech.name === techName) ){
+        return true;
+      }else{
+        return false;
+      }
+    })
+  }
 
 }
 

@@ -8,12 +8,20 @@
     height: 100px;;
     align-items: center;
     justify-content: flex-end;
-
+    position:relative;
+    animation-name: slide;
+    animation-delay: .9s;
+    animation-duration:.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
     img {
         width: 75px;
     }
 }
-
+@keyframes slide{
+    0%{right:-300px;}
+    100%{right:0;opacity:1;}
+}
 .details {
     padding-left: 15px;
 

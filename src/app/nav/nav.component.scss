@@ -9,11 +9,20 @@ nav.flexNav {
         justify-content: space-around;
         li {
             font-size: xx-large;
+            position:relative;
+            
+            animation-name: slide-down;
+            animation-delay: 0;
+            animation-duration: 0.5s;
             a {
                 text-decoration: none;
                 opacity: 0.25;
             }
         }
+    }
+    @keyframes slide-down{
+        0%{top:-300px;}
+        100%{top:0;}
     }
     .badge {
         padding: 50px 100px 50px 50px;
@@ -23,8 +32,8 @@ nav.flexNav {
     nav.flexNav {
         justify-content: space-around;
         ul {
-            width:100%;
-            height:100px;
+            width: 100%;
+            height: 100px;
             li {
                 font-size: x-large;
             }
