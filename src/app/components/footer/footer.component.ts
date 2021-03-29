@@ -8,11 +8,19 @@ import projectsData from '../../projects.json';
 })
 export class FooterComponent implements OnInit {
   projects = projectsData;
-  @Output() filter:EventEmitter<any> = new EventEmitter();
+  techs = <any>[];
+  @Output() filter: EventEmitter<any> = new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+    projectsData.map(project => {
+      project.tech.map((tech: any) => {
+        if (!this.techs.find((item: any) => item.name === tech.name)) {
+          this.techs.push(tech);
+        }
+      })
+    });
   }
 
 }

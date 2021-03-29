@@ -5,36 +5,25 @@
         "github": "https://github.com/brionmodernsyntax/Snake",
         "playcanvas": null,
         "download": "https://drive.google.com/file/d/1QIeXl8xJwgPD31oBCLAtvTAUNpC7l8CK/view?usp=sharing",
-        "tech":[
-            {
-                "name": "java",
-                "icon": "devicon-java-plain"
-            }
-        ]
-    },
-    {
-        "name": "SNAKE",
-        "cover": "assets/images/snakeCover.png",
-        "github": "https://github.com/brionmodernsyntax/Snake",
-        "playcanvas": null,
-        "download": "https://drive.google.com/file/d/1QIeXl8xJwgPD31oBCLAtvTAUNpC7l8CK/view?usp=sharing",
-        "tech":[
-            {
-                "name": "angularjs",
-                "icon": "devicon-angularjs-plain"
-            }
-        ]
-    },
-    {
-        "name": "SNAKE",
-        "cover": "assets/images/snakeCover.png",
-        "github": "https://github.com/brionmodernsyntax/Snake",
-        "playcanvas": null,
-        "download": "https://drive.google.com/file/d/1QIeXl8xJwgPD31oBCLAtvTAUNpC7l8CK/view?usp=sharing",
-        "tech":[
+        "tech": [
             {
                 "name": "csharp",
-                "icon": "devicon-csharp-plain"
+                "icon": "devicon-csharp-plain non-colored",
+                "altIcon": "devicon-csharp-plain colored"
+            }
+        ]
+    },
+    {
+        "name": "SNAKE",
+        "cover": "assets/images/snakeCover.png",
+        "github": "https://github.com/brionmodernsyntax/Snake",
+        "playcanvas": null,
+        "download": "https://drive.google.com/file/d/1QIeXl8xJwgPD31oBCLAtvTAUNpC7l8CK/view?usp=sharing",
+        "tech": [
+            {
+                "name": "java",
+                "icon": "devicon-java-plain non-colored",
+                "altIcon": "devicon-java-plain colored"
             }
         ]
     }

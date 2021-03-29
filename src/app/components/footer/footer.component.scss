@@ -1,19 +1,41 @@
 .container {
-    display: flex;
-    justify-content:space-around;
-    width: 30%;
+    display: inline;
+    width: 100%;
     position: fixed;
     left: 0;
-    bottom: 10px;
-    i {
-        font-size: 50px;
+    bottom: 0;
+    background-color: #333;
+    padding: 10px 0 10px 0;
+    ul {
+        display:flex;
+        flex-grow: 1;
+        justify-content: space-around;
     }
-    img{
-        width:50px;
+    i {
+        font-size: 60px;
+        cursor: pointer;
+    }
+    img {
+        width: 60px;
+        cursor: pointer;
+    }
+    .iconView {
+        .non-colored {
+            display: inline;
+        }
+        .colored {
+            display: none;
+        }
+    }
+    .iconView:hover {
+        .non-colored {
+            display: none;
+        }
+        .colored {
+            display: inline;
+        }
     }
 }
 @media only screen and (max-width: 1275px) {
-    .container{
-        width: 100%;
-    }
+
 }

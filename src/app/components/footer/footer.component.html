@@ -1,8 +1,12 @@
 <div class="container">
-<img src="../../../assets/images/return.svg" (click)="filter.emit('all')">
-<div *ngFor="let project of projects">
-    <div *ngFor="let techs of project.tech">
-        <i [class]="techs.icon" (click)="filter.emit(techs.name)"></i>
-    </div>
-</div>
+   
+
+        <ul>
+            <img src="../../../assets/images/return.svg" (click)="filter.emit('all')">
+            <li *ngFor="let tech of techs" class="iconView">
+                <i [class]="tech.icon" (click)="filter.emit(tech.name)"></i>
+                <i [class]="tech.altIcon" (click)="filter.emit(tech.name)"></i>
+            </li>
+        </ul>
+
 </div>
