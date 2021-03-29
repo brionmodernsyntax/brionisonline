@@ -6,15 +6,15 @@
                 <a [href]="project.github" target="_blank"><i class="devicon-github-original"></i></a>
                 <div *ngFor="let techs of project.tech">
                     <div>
-                    <i [class]="techs.icon"></i>
+                        <i [class]="techs.icon"></i>
                     </div>
                 </div>
                 <div *ngIf="project.playcanvas != null">
-                    <img src="assets/images/play.svg">
+                    <i class="fas fa-play"></i>
                 </div>
                 <div *ngIf="project.download != null">
-                    <a [href]="project.download" target="_blank"><img src="assets/images/download.svg"
-                            class="play" /></a>
+                    <a [href]="project.download" target="_blank"><i class="fas fa-download"></i>
+                    </a>
                 </div>
             </div>
         </div>
