@@ -17,9 +17,9 @@
     {
         "name": "CRYSTAL COLLECTOR",
         "cover": "assets/images/crystalCollector.png",
-        "github": "",
+        "github": "https://github.com/brionmodernsyntax/CrystalCollector",
         "playcanvas": null,
-        "download": "",
+        "download": "https://drive.google.com/file/d/1ymING-Gz__frQkFCf8hlJqR8vu51-PQh/view?usp=sharing",
         "tech": [
             {
                 "name": "csharp",

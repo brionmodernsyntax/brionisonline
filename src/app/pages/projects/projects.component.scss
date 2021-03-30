@@ -35,7 +35,7 @@
             border-radius: 25px;
         }
         .aboutGame {
-            height: 50px;
+
             position: absolute;
             bottom: 0;
             width: 100%;
@@ -47,6 +47,7 @@
             justify-content: space-around;
             align-items: center;
             i {
+                padding:15px;
                 font-size: 30px;
             }
         }
