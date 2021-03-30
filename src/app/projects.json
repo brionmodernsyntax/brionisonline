@@ -13,5 +13,19 @@
                 "altIcon": "devicon-java-plain colored"
             }
         ]
+    },
+    {
+        "name": "CRYSTAL COLLECTOR",
+        "cover": "assets/images/crystalCollector.png",
+        "github": "",
+        "playcanvas": null,
+        "download": "",
+        "tech": [
+            {
+                "name": "csharp",
+                "icon": "devicon-csharp-plain non-colored",
+                "altIcon": "devicon-csharp-plain colored"
+            }
+        ]
     }
 ]
