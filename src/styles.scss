@@ -21,3 +21,18 @@ h1{
 .activatedLink{
     opacity: 1.0 !important;
 }
+::-webkit-scrollbar {
+    width: 10px;
+
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 25px;
+  }

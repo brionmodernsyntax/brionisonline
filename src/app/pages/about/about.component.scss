@@ -1,8 +1,17 @@
 .flex-container {
     width: 100%;
-
     display: flex;
     justify-content: space-around;
+    animation: fadeIn 1.5s;
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 }
 img {
     width: 200px;
@@ -32,6 +41,20 @@ img {
     overflow: auto;
     p {
         color: #707070;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        opacity: 0;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 25px;
     }
 }
 
