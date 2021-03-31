@@ -1,7 +1,6 @@
 nav.flexNav {
     display: flex;
     justify-content: space-between;
-
     ul {
         display: flex;
         align-items: center;
@@ -9,20 +8,29 @@ nav.flexNav {
         justify-content: space-around;
         li {
             font-size: xx-large;
-            position:relative;
-            
-            animation-name: slide-down;
-            animation-delay: 0;
-            animation-duration: 0.5s;
             a {
                 text-decoration: none;
                 opacity: 0.25;
             }
+            transition: all 0.2s ease-in-out;
         }
-    }
-    @keyframes slide-down{
-        0%{top:-300px;}
-        100%{top:0;}
+        .animation {
+            position: relative;
+            animation-name: slide-down;
+            animation-duration: 0.5s;
+            @keyframes slide-down {
+                0% {
+                    top: -300px;
+                }
+                100% {
+                    top: 0;
+                }
+            }
+        }
+
+        li:hover {
+            transform: scale(1.2);
+        }
     }
     .badge {
         padding: 50px 100px 50px 50px;

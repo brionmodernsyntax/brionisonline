@@ -3,7 +3,7 @@
 
         <ul>
             <li>
-            <i class="fas fa-globe-americas" (click)="filter.emit('all')"></i>
+                <i class="fas fa-undo-alt" (click)="filter.emit('all')"></i>
         </li>
             <li *ngFor="let tech of techs" class="iconView">
                 <i [class]="tech.icon" (click)="filter.emit(tech.name)"></i>
